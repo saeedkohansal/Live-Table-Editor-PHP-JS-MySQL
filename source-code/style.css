@@ -1,0 +1,120 @@
+* {
+    -webkit-tap-highlight-color: transparent !important;
+    outline: none !important;
+}
+
+body {
+    font-family: "Ubuntu";
+    color: #fff;
+    background-color: #6c6fff;
+}
+
+thead {
+    background-color: #22222294;
+}
+
+tbody {
+    background-color: #00000054;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 50px;
+}
+
+table {
+    margin: 0 !important;
+    color: #fff !important;
+    font-size: 40px;
+    text-align: center;
+}
+
+th,
+td,
+.table-group-divider {
+    border-color: #ffffff57;
+}
+
+td {
+    transition: .5s;
+}
+
+td[contenteditable="true"]:focus {
+    color: #666;
+    background-color: #ffff80;
+}
+
+#notification {
+    display: none;
+    color: #666;
+    background-color: #91ff97;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 60px;
+    user-select: none;
+    filter: drop-shadow(0 4px 6px #444);
+}
+
+.animation {
+    background: linear-gradient(270deg, #6c6fff, #83acff, #a081ff, #d16dff, #6d9dff);
+    background-size: 800% 800%;
+    -webkit-animation: background-animation 19s ease infinite;
+    -moz-animation: background-animation 19s ease infinite;
+    -o-animation: background-animation 19s ease infinite;
+    animation: background-animation 19s ease infinite;
+}
+
+@-webkit-keyframes background-animation {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes background-animation {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes background-animation {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes background-animation {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
