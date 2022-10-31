@@ -1,6 +1,6 @@
 # Live Table Editor PHP JS MySQL
 
-_How To Create Live Table Editor Like Microsoft Excel And Google Sheets From Scratch - PHP|JavaScript_
+_How To Create Live Table Editor Like Microsoft Excel And Google Sheets From Scratch | PHP-JS-MySQL_
 
 ![Thumbnail](https://raw.githubusercontent.com/saeedkohansal/Live-Table-Editor-PHP-JS-MySQL/main/image/Live-Table-Editor-PHP-JS-MySQL.png "Thumbnail")
 ![Frontend Explain](https://raw.githubusercontent.com/saeedkohansal/Live-Table-Editor-PHP-JS-MySQL/main/image/Frontend-Explain.png "Frontend Explain")
