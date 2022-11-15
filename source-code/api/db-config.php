@@ -72,8 +72,8 @@ class Database
 
 // Connect To Database
 $db = new Database(
-    "127.0.0.1",          // Host Name
-    "live_table_editor",  // Database Name
-    "root",               // Username
-    ""                    // Password
+    "127.0.0.1",         // Host Name
+    "live_table_editor", // Database Name
+    "root",              // Username
+    ""                   // Password
 );
